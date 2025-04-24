@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "bf30fe0b-b438-4603-a107-a92ae1a7d754",
+		"name": "Desafio-Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38308290"
+	},
+	"item": [
+		{
+			"name": "Consulta Tecno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://viacep.com.br/ws/87015310/json/",
+					"protocol": "https",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"87015310",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta Logradouro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://viacep.com.br/ws/PR/Londrina/Carlos%20Gomes/json/",
+					"protocol": "https",
+					"host": [
+						"viacep",
+						"com",
+						"br"
+					],
+					"path": [
+						"ws",
+						"PR",
+						"Londrina",
+						"Carlos%20Gomes",
+						"json",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
